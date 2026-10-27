@@ -1,0 +1,16 @@
+# Identidades y credenciales AWS: nunca en Git
+.aws/
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*.tfstate
+*.tfstate.*
+# Evidencias contienen IDs, rutas e informacion de la cuenta
+/evidencias/*
+!/evidencias/.gitkeep
+# Cachés/herramientas
+__pycache__/
+.venv/
+.vscode/settings.json
